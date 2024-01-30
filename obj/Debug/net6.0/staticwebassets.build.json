@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "fNpo3rwvGw/4VcKYRV3sGzJDtxWZK60pEIitEkE3xdw=",
+  "Source": "SistemaBancarioWebAPI",
+  "BasePath": "_content/SistemaBancarioWebAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
