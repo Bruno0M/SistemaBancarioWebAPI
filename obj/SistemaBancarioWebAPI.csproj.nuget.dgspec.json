@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Projetos C#\\SistemaBancarioWebAPI\\SistemaBancarioWebAPI.csproj": {}
+    "E:\\ProjetosCsharp\\SistemaBancarioWebAPI\\SistemaBancarioWebAPI.csproj": {}
   },
   "projects": {
-    "E:\\Projetos C#\\SistemaBancarioWebAPI\\SistemaBancarioWebAPI.csproj": {
+    "E:\\ProjetosCsharp\\SistemaBancarioWebAPI\\SistemaBancarioWebAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Projetos C#\\SistemaBancarioWebAPI\\SistemaBancarioWebAPI.csproj",
+        "projectUniqueName": "E:\\ProjetosCsharp\\SistemaBancarioWebAPI\\SistemaBancarioWebAPI.csproj",
         "projectName": "SistemaBancarioWebAPI",
-        "projectPath": "E:\\Projetos C#\\SistemaBancarioWebAPI\\SistemaBancarioWebAPI.csproj",
+        "projectPath": "E:\\ProjetosCsharp\\SistemaBancarioWebAPI\\SistemaBancarioWebAPI.csproj",
         "packagesPath": "C:\\Users\\Bruno\\.nuget\\packages\\",
-        "outputPath": "E:\\Projetos C#\\SistemaBancarioWebAPI\\obj\\",
+        "outputPath": "E:\\ProjetosCsharp\\SistemaBancarioWebAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

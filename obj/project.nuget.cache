@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "gfj0b94O0ekN9AgiDHIPpdsMOLgjsq60UHUVENyY+Q3OZ0PplXYq0zbWEuXKTO7+Xy8kKF2AbOIrjJhGjWCu4Q==",
+  "dgSpecHash": "iHAIeDv8SKd/EZXlg6O3sL38ZOSpozHwwx3jYRrkWmbptUYbnSHlEKxbhvkjV2c92qA2PPn3pTld0j0m4D2iKQ==",
   "success": true,
-  "projectFilePath": "E:\\Projetos C#\\SistemaBancarioWebAPI\\SistemaBancarioWebAPI.csproj",
+  "projectFilePath": "E:\\ProjetosCsharp\\SistemaBancarioWebAPI\\SistemaBancarioWebAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Bruno\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Bruno\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
