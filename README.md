@@ -5,6 +5,56 @@ O Projeto conta com 5 Endpoints, todos documentados através do swagger:
 
 ![alt text](image.png)
 
+O endpoint `CriarPessoa` do tipo `POST` consiste na criação de um usuário, onde é necessário passar as seguintes informações:
+```
+{
+    "nome": "string",
+    "cpf": "string",
+    "numeroCartao": "string",
+    "numeroContaCorrente": "string",
+    "cvv": "string",
+    "saldoContaCorrente": "decimal",
+    "dataValidadeCartao": "mm/dd/yyyy"
+}
+```
+
+O endpoint `TransacaoPagamento` do tipo `POST` consiste na Transferência de pagamento após uma compra. Para que a transação seja efetuada, é preciso que os dados inseridos correspondam aos dados cadastrados no banco, assim como é necessário ter saldo suficiente para que ocorra.
+
+ Para efetuar a transação, os dados necessários são:
+```
+{
+    "numeroCartao": "string",
+    "numeroContaCorrente": "string",
+    "cvv": "string",
+    "dataValidadeCartao": "01/01/2024",
+    "valorCompra": "decimal",
+    "formaPagamento": ["debito", "credito"],
+    "dataCompra": "mm/dd/yyyy"
+}
+```
+
+O endpoint `ListarSaldos` do tipo `GET` consiste na listagem dos saldos de todos os usuários. O endpoint retorna:
+
+```
+{
+    "nome": "string",
+    "saldo": "decimal",
+}
+```
+
+O endpoint `EditarCartao` consiste na edição das informações do cartão, onde é necessário passar as seguintes informações:
+
+```
+{
+    "numeroCartao": "string",
+    "cvv": "string",
+    "dataValidadeCartao": "mm/dd/yyyy",
+}
+```
+
+O endpoint `DELETE` consiste na exclusão de uma pessoa do banco de dados.
+
+
 ## Tecnologias Usadas
 * .Net 6.0 | C# | ASP.NET
 * Entity Framework
