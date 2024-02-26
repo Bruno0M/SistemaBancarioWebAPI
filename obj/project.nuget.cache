@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "iHAIeDv8SKd/EZXlg6O3sL38ZOSpozHwwx3jYRrkWmbptUYbnSHlEKxbhvkjV2c92qA2PPn3pTld0j0m4D2iKQ==",
+  "dgSpecHash": "Hu+GaiAvM4e1rQ8X+SKWNZojxpzu8UV9fJtqupPetQ37s9404WAiDQWFxncdmhDfi3kAEes6Bt0Xz6ANZtYLDA==",
   "success": true,
   "projectFilePath": "E:\\ProjetosCsharp\\SistemaBancarioWebAPI\\SistemaBancarioWebAPI.csproj",
   "expectedPackageFiles": [
@@ -33,6 +33,7 @@
     "C:\\Users\\Bruno\\.nuget\\packages\\microsoft.identitymodel.tokens\\6.8.0\\microsoft.identitymodel.tokens.6.8.0.nupkg.sha512",
     "C:\\Users\\Bruno\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\Bruno\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\Bruno\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.19.5\\microsoft.visualstudio.azure.containers.tools.targets.1.19.5.nupkg.sha512",
     "C:\\Users\\Bruno\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
     "C:\\Users\\Bruno\\.nuget\\packages\\microsoft.win32.systemevents\\4.7.0\\microsoft.win32.systemevents.4.7.0.nupkg.sha512",
     "C:\\Users\\Bruno\\.nuget\\packages\\swashbuckle.aspnetcore\\6.5.0\\swashbuckle.aspnetcore.6.5.0.nupkg.sha512",

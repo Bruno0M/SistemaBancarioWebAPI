@@ -33,7 +33,6 @@ namespace SistemaBancarioWebAPI
             });
 
 
-
             var app = builder.Build();
 
             // Configure the HTTP request pipeline.
@@ -45,7 +44,13 @@ namespace SistemaBancarioWebAPI
 
             app.UseCors("SistemaBancarioApp");
             
-            app.UseHttpsRedirection();
+            {
+                var scope = app.Services.CreateScope();
+                var dbContext = scope.ServiceProvider.GetRequiredService<ApplicationDbContext>();
+                dbContext.Database.EnsureCreated();
+            }
+            
+            //app.UseHttpsRedirection();
 
             app.UseAuthorization();
 

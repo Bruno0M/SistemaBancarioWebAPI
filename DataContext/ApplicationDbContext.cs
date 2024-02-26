@@ -10,6 +10,7 @@ namespace SistemaBancarioWebAPI.DataContext
         {
         }
 
+
         public DbSet<CartaoModel> Cartoes { get; set; }
         public DbSet<PessoaModel> Pessoas { get; set; }
         public DbSet<ContaCorrenteModel> ContasCorrentes { get; set; }
@@ -28,3 +29,4 @@ namespace SistemaBancarioWebAPI.DataContext
         }
     }
 }
+

@@ -1,0 +1,35 @@
+﻿services:
+    api:
+        container_name: sistema-bancario-api
+        build:
+            dockerfile: Dockerfile
+            context: .
+        ports:
+            - 4652:80
+        environment:
+            - ASPNETCORE_ENVIRONMENT=Development
+        depends_on: ["sistema-bancario-sql"]
+        networks:
+            sistema-bancario-networks:
+    
+
+    sistema-bancario-sql:
+        image: mcr.microsoft.com/mssql/server
+        environment:
+            - "ACCEPT_EULA=Y"
+            - "MSSQL_SA_PASSWORD=SenhaDbAPI@1"
+        volumes:
+            - "sistema-bancario-api-mssql:/var/opt/mssql"
+        networks:
+            sistema-bancario-networks:
+                aliases:
+                    - "sql"      
+
+
+volumes:
+    sistema-bancario-api-mssql:
+
+
+networks:
+    sistema-bancario-networks:
+        driver: bridge
